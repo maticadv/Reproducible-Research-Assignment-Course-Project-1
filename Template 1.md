@@ -17,6 +17,8 @@ str(DataActivity)
 DataActivityNAs <- na.omit(DataActivity)
 str(DataActivityNAs)
 DataActivityNAs$date <- as.Date(DataActivityNAs$date, "%Y-%m-%d")
+library(knitr)
+opts_chunk$set(echo=TRUE)
 ```
 
 ### 2. Histogram of the total number of steps taken each day:
