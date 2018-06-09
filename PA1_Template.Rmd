@@ -1,14 +1,13 @@
 ---
-title: "PA1_template"
+title: "Untitled"
 author: "Carlos Diaz"
 date: "8 de junio de 2018"
-output:
-  html_document: 
-    fig_caption: yes
-    keep_md: yes
-    toc: yes
-  pdf_document: default
+output: html_document
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 # REPRODUCIBLE RESEARCH COURSE - DATA SCIENCE SPECIALIZATION
 ## ASSIGNMENT: COURSE PROJECT 1  
